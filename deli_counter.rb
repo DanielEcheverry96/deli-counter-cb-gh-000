@@ -12,3 +12,7 @@ def line
     puts mensaje
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli << "Welcome, #{name}. You are number #{katz_deli.size}"
+end
