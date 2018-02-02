@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     mensaje = "The line is currently: "
     katz_deli.each_with_index do |item, index|
-        mensaje << "#{index + 1}. #{item}"
+        mensaje << "#{index + 1}. #{item} "
     end
     puts mensaje
   end
