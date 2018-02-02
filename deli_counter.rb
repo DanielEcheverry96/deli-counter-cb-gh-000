@@ -14,5 +14,5 @@ def line
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli << "Welcome, #{name}. You are number #{katz_deli.size + 1}"
+  katz_deli << "Welcome, #{name}. You are number #{katz_deli.size + 1} in line."
 end
