@@ -9,6 +9,6 @@ def line
     katz_deli.each_with_index do |item, index|
         mensaje << "#{index}. #{item}"
     end
+    puts mensaje
   end
 end
-
